@@ -1,0 +1,38 @@
+body {
+    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00NTItZi0wMTQuanBn.jpg");
+    
+	background-color: #cccccc; 
+	height: 500px; 
+	background-position: center;
+	background-repeat: repeat;
+}
+
+.container {
+    text-align: center;
+}
+
+#task-container {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px #ffb6c1(226, 217, 217, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
